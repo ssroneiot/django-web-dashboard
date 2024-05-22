@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   ssroneiot-app:
     container_name: dashboard_app
