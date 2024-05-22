@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.12
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -15,4 +15,4 @@ COPY . .
 RUN python manage.py migrate
 
 # gunicorn
-CMD ["gunicorn", "--config", "gunicorn-cfg.py", "core.wsgi"]
+CMD ["gunicorn", "--config", "gunicorn-cfg.py", "dashboard.wsgi"]
