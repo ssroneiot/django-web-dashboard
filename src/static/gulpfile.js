@@ -1,7 +1,7 @@
 /*
 
 =========================================================
-* AppSeed - Simple SCSS compiler via Gulp
+* ssroneiot - Simple SCSS compiler via Gulp
 =========================================================
 
 */

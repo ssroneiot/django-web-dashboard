@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  appseed-app:
+  ssroneiot-app:
     container_name: appseed_app
     restart: always
     build: .
@@ -18,7 +18,7 @@ services:
     networks:
       - web_network
     depends_on: 
-      - appseed-app
+      - ssroneiot-app
 networks:
   db_network:
     driver: bridge

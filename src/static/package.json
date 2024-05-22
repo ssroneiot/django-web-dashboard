@@ -1,22 +1,22 @@
 {
-    "name": "appseed-generic",
+    "name": "ssroneiot-generic",
     "version": "1.0.0",
     "description": "Template",
     "main": "gulpfile.js",
-    "author": "ApPSeed",
+    "author": "ssroneiot",
     "keywords": [
         "css",
         "sass",
         "gulp",
         "web"
     ],
-    "homepage": "https://appseed.us",
+    "homepage": "https://ssroneiot.us",
     "repository": {
         "type": "git",
         "url": "https://github.com/app-generator/app-generator"
     },
     "bugs": {
-        "email": "support@appseed.us"
+        "email": "ssroneiot@gmail.com"
     },
     "license": "MIT License",
     "devDependencies": {
